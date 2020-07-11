@@ -1,0 +1,12 @@
+{% extends "layout.html" %}
+
+{% block heading %}
+    PROBANDO FLASK
+{% endblock %}
+
+{% block body %}
+    <form action="{{ url_for('hello') }}" method="get">
+        <input type="text" name="name" placeholder="INGRESE SU NOMBRE ">
+        <button type="button" class="btn btn-primary">ENVIAR</button>
+    </form>
+{% endblock %}

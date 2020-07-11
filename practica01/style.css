@@ -1,0 +1,22 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 0em;
+}
+
+.cover {
+  color: white;
+  height: 400px;
+  background-image: url(https://cdn.glitch.com/5db96a97-8496-4e8b-9a61-cb150ae4b09d%2Fproyecto.jpg?v=1587695378661);
+  background-size:cover;
+  background_position:center;
+}
+
+.cover-small{
+  height : 200px;
+}
+
+.card{
+  border: 0 !important;
+}
